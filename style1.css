@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* TOP */
+
+nav{
+    display: flex;
+    background: url(./Images/nav\ bg.jpg);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    margin-left: 10px;
+    width: 90px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;  
+}
+
+.menu ul li {
+    margin: auto 25px;   
+}
+
+.menu ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: white;
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.search input{
+    height: 30px;
+    width: 170px;
+    text-align: center;
+}
+
+.search button{
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+/* MIDDLE */
+.container img{
+    width: 300px;
+    height: 250px;
+}
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+.link1 {
+    margin: 30px  30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr ;
+    gap: 10px;
+}
+.link1 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: wheat;
+    padding: 10px;
+}
+.foot{
+    margin-top: 20px;
+}
+.foot a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background: url(./Images/nav\ bg.jpg);
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
